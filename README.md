@@ -1,14 +1,14 @@
-# Mini-Proyek-Pemograman-Dasar
+## Mini-Proyek-Pemograman-Dasar
 program berfungsi untuk validasi nama, menghitung nilai total dan rata rata serta fitur block atau berhenti ketika nama input salah 3 kali.
 
 Nama: Fara Firoza
 Kelas: 7B
 Proyek: Tugas Pemrograman Dasar – Validasi dan Perhitungan Nilai
 
-# Program Validasi Nama dan Perhitungan Nilai
+## Program Validasi Nama dan Perhitungan Nilai
 program ini merupakan tugas pemrograman dasar sesuai permintaan kaka tingkat yaitu menghitung total dan rata dengan sedikit modifikasi. tujuannya adalah untuk memvalidasi input nama siswa yang terdaftar pada kelas disini saya menggunakan nama kelas 7b, meminta user untuk input nilai esai dan pilihan ganda, lalu menghitung total dan rata-rata kemudian dari nilai tersebut akan ditampilkan predikat apakah siswa tersebut lulus atau remedial.
 
-# Fitur Program
+## Fitur Program
 - memvalidasi nama dari daftar 8 siswa kelas 7B disini saya menggunakan array [8][20].
 - maksimal 3 kali percobaan untuk memasukkan nama jika lebih maka programnya akan dihentikan.
 - hanya menginputkan nilai esai dan pilihan ganda.
@@ -20,7 +20,7 @@ program ini merupakan tugas pemrograman dasar sesuai permintaan kaka tingkat yai
 - loop disini saya menggunakan while(1)/forever dan menggunakan break agar dia tau kapan berhenti dan juga saya menggunakan loop for
 - saya menggunakan if dan else untuk kondisional karena pada program ini cukup banyak kondisionalnya
  
-# Alur Program
+## Alur Program
 1. program menyimpan daftar nama siswa kelas 7b.
 2. user diminta memasukkan nama kelas 7b dengan huruf kecil bertujuan tidak ada yang mengetik huruf besar agar lebih efisien dan optimal.
 3. jika nama cocok, program lanjut meminta nilai.
@@ -31,7 +31,7 @@ program ini merupakan tugas pemrograman dasar sesuai permintaan kaka tingkat yai
    - program akan menghitung rata-rata = total dibagi 2.
    - program akan menampilkan nama, total, rata-rata, dan status kelulusan.
 
-# Source Code
+## Source Code
 #include <stdio.h>
 
 int main(){
@@ -111,7 +111,7 @@ masukan nama siswa kelas 7b dengan huruf kecil:nian
 nama tidak ditemukan
 nama tidak valid mencapai batas, program dihentikan
 
-# Contoh Output Program: input salah kemudian benar dan menampilkan predikat
+## Contoh Output Program: input salah kemudian benar dan menampilkan predikat
 masukan nama siswa kelas 7b dengan huruf kecil:rio
 nama tidak ditemukan
 masukan nama siswa kelas 7b dengan huruf kecil:tio
@@ -125,8 +125,7 @@ total nilai = 170.00
 Rata - rata = 85.00
 LULUS
 
-# Contoh Output Program: input nama langsung benar dan menampilkan predikat
-masukan nama siswa kelas 7b dengan huruf kecil:sandi
+## Contoh Output Program: input nama langsung benar dan menampilkan predikatmasukan nama siswa kelas 7b dengan huruf kecil:sandi
 masukan nilai esai: 70
 masukan nilai pilihan ganda: 50
 
