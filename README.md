@@ -141,4 +141,7 @@
   
   char daftarNama[8][30] = {"fara", "ratna", "amira", "sinta", "leon", "sandi", "restu", "yuni"};
   
-  char namaInput[30];
+  char namaInput[30
+
+## Link Video Demo :
+https://youtu.be/m3tfXazaz1Y
