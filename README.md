@@ -103,36 +103,33 @@ int main(){
 }
 
 # Contoh Output Program: Input Salah 3 kali
-masukan nama siswa kelas 7b dengan huruf kecil:nina
-nama tidak ditemukan
-masukan nama siswa kelas 7b dengan huruf kecil:nina
-nama tidak ditemukan
-masukan nama siswa kelas 7b dengan huruf kecil:nian
-nama tidak ditemukan
-nama tidak valid mencapai batas, program dihentikan
+- masukan nama siswa kelas 7b dengan huruf kecil:nina
+- nama tidak ditemukan
+- masukan nama siswa kelas 7b dengan huruf kecil:nina
+- nama tidak ditemukan
+- masukan nama siswa kelas 7b dengan huruf kecil:nian
+- nama tidak ditemukan
+- nama tidak valid mencapai batas, program dihentikan
 
 ## Contoh Output Program: input salah kemudian benar dan menampilkan predikat
-masukan nama siswa kelas 7b dengan huruf kecil:rio
-nama tidak ditemukan
-masukan nama siswa kelas 7b dengan huruf kecil:tio
-nama tidak ditemukan
-masukan nama siswa kelas 7b dengan huruf kecil:fara
-masukan nilai esai: 80
-masukan nilai pilihan ganda: 90
+- masukan nama siswa kelas 7b dengan huruf kecil:rio
+- nama tidak ditemukan
+- masukan nama siswa kelas 7b dengan huruf kecil:tio
+- nama tidak ditemukan
+- masukan nama siswa kelas 7b dengan huruf kecil:fara
+- masukan nilai esai: 80
+- masukan nilai pilihan ganda: 90
 
-nama = fara
-total nilai = 170.00
-Rata - rata = 85.00
-LULUS
+- nama = fara
+- total nilai = 170.00
+- Rata - rata = 85.00
+- LULUS
 
 ## Contoh Output Program: input nama langsung benar dan menampilkan predikatmasukan nama siswa kelas 7b dengan huruf kecil:sandi
-masukan nilai esai: 70
-masukan nilai pilihan ganda: 50
+- masukan nilai esai: 70
+- masukan nilai pilihan ganda: 50
 
-nama = sandi
-total nilai = 120.00
-Rata - rata = 60.00
-REMEDIAL
-
-
-
+- nama = sandi
+- total nilai = 120.00
+- Rata - rata = 60.00
+- REMEDIAL
