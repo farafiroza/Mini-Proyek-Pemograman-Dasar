@@ -17,9 +17,9 @@
 - Fitur utama:
 - 1. program memvalidasi nama, nama telah ditentukan ada array ada 8 nama dan masing masing tidak lebih dari 30 karakter
   2. user menginputkan nama siswa jika salah maka program akan dihentikan
-  3. jika program benar maka program akan selalu meminta nilai esai dan pg sebelum lebih dari 8 kali sesuai jumlah siswa
-  4. ketika user menginputkan nilai program akan menghitung total dan rata rata dari nilai tersebut
-  5. setelah program menghitung nilai program akan memberi predikat apakah anak tersebut LULUS atau REMEDIAL
+  3. jika nama yang diinput benar maka program akan meminta nilai esai dan pg
+  4. ketika user menginputkan nilai, program akan menghitung total dan rata rata dari nilai tersebut
+  5. setelah program menghitung nilai, program akan memberi predikat apakah anak tersebut LULUS atau REMEDIAL
   6. hasil akhir program akan menampilkan nama yang diinput, nilai total dan rata rata serta predikat nilainya REMEDIAL/LULUS
  
 - Konsep yang digunakan:
@@ -76,7 +76,7 @@
       
       for (int i = 0; i < 8; i++)
       
- - 7. terdapat variable benar yang akan berubah nilainya menjadi 1 atau true jika input nama benar
+ - 7. terdapat variable benar yang akan berubah nilainya menjadi 1 jika input nama benar
 
        int benar = 0;
         for (int i = 0; i < 8; i++){
@@ -93,13 +93,13 @@
    if(strcmp(namaInput, daftarNama[i]) == 0){
                 benar = 1;
       
-- 2. terdapat if untuk kondisi jika nilai variable benar maka selanjutnya langsung ke input nilai yang else nya dilewat
+- 2. terdapat if untuk kondisi jika nilai variable benar maka selanjutnya langsung ke input nilai
      
     if(benar){
         break;
     }
      
-- 3. terdapat else jika tidak benar maka variable percobaan diatmbah, ada if lagi disini jika percobaan lebih dari sama dengan 3 maka program akan dihentikan
+- 3. terdapat else jika tidak benar maka variable percobaan ditambah, ada if lagi disini jika percobaan lebih dari sama dengan 3 maka program akan dihentikan
      
     else{
     percobaan++; 
@@ -129,8 +129,11 @@
                 benar = 1;
                 break;
             }
-
         }
+        if(benar){
+        break;
+    }
+
 
 - Fungsi : int main() dan juga fungsi untuk cek karakter yaitu strcmp dari library <string.h>
   
